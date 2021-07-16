@@ -1,4 +1,4 @@
-max=10
+[ $1 ] && max=$1 || max=10
 for i in `seq 1 $max`
 do
     echo "$RANDOM" > "./examples/$i.txt"
