@@ -3,3 +3,4 @@ examples/*
 *.tar.gz
 *.gz
 *.zip
+.DS_Store
